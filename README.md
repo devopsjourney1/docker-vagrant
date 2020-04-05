@@ -1,8 +1,9 @@
-# Ansible Labs
+# Docker Labs
 
-These are Ansible Labs for the youtube Channel DevOps Journey.
+These are Docker Labs for the youtube Channel DevOps Journey
+https://www.youtube.com/channel/UC4Snw5yrSDMXys31I18U3gg/
 
-Each folder corrasponds to a video. Follow along and let's learn ansible together.
+Each folder corrasponds to a video. Follow along and let's learn docker together.
 
 ## How to use these Labs
 1. Install Oracle Virtual Box:  https://www.virtualbox.org/
@@ -11,7 +12,7 @@ Each folder corrasponds to a video. Follow along and let's learn ansible togethe
 
 3. In a new Directory copy this respository:
 ``` shell
-git clone https://github.com/bradmorg/ansible-labs.git
+git clone https://github.com/bradmorg/docker-labs.git
 ```
 
 4. Start the vagrant instance.
@@ -19,7 +20,7 @@ git clone https://github.com/bradmorg/ansible-labs.git
 vagrant up
 ```
 
-5. SSH into the ansible-control virtual machine.
+5. SSH into node1
 ``` shell
 vagrant ssh node1
 ```
