@@ -24,7 +24,7 @@ docker image ls
 4. Create a container, install python, commit the image
 ``` shell
 docker run -it ubuntu:14.04
-apt-get update && apt-get install python
+apt-get update -y && apt-get install python -y
 exit
 docker ps -a
 docker commit <container id> ubuntu:python 

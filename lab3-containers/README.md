@@ -7,9 +7,10 @@ These labs should be following along the video:
 1. See that containers exit out when they have completed execution.
 ``` shell
 docker run ubuntu:14.04 ls -l
+docker run ubuntu:14.04 date
 docker run ubuntu:14.04 hostname
 docker run -d -it ubuntu:14.04 
-```
+```j
 
 2. Set an environment variable
 ``` shell
