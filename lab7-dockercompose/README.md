@@ -19,4 +19,6 @@ sudo docker-compose images
 sudo docker-compose down
 
 sudo docker-compose up -d --scale db=2
+
+docker-compose scale web=2
 ```
